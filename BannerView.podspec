@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = "3.0"
 
   s.source       = { :git => "https://github.com/FarhanAnsari92/FABannerView.git", :tag => s.version }
-  s.source_files  = ["Classes/**/*.swift"]
+  s.source_files  = ["Classes/*.swift"]
 
   s.requires_arc = true
   s.frameworks = 'UIKit'
