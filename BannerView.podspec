@@ -24,5 +24,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.frameworks = 'UIKit'
   s.dependency = 'SDWebImage', '~> 5.8.3'
-  s.resources = ['*.{xib}']
+  s.resources ['*.{xib}']
 end
